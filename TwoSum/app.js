@@ -48,7 +48,7 @@ var twoSum = function(nums, target){
     
     for (let i=0; i< nums.length; i++){
        const num = nums[i]
-       const.diff = target - num;
+       const diff = target - num;
        
        if(map.get(diff)){
             return [i, map.get(diff)]
