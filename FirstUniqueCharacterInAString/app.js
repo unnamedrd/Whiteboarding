@@ -29,3 +29,15 @@ Output: -1
  
  3. Carry out the plan 
  4. Look back*/
+
+var firstUniqChar = function (s) {
+    
+    const charMap = new Map();
+
+    const sArr = s.split("")
+
+    for (let i = 0; i < sArr.length; i++){
+        
+    }
+    
+}
