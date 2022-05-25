@@ -36,8 +36,12 @@ var firstUniqChar = function (s) {
 
     const sArr = s.split("")
 
+    var counter = 0;
+
     for (let i = 0; i < sArr.length; i++){
-        
+
+        charMap.set(sArr[i], counter++)
+
     }
     
 }
